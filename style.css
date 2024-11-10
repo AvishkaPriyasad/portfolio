@@ -32,7 +32,7 @@ nav{
   z-index: 998;
   transition: all 0.3s ease;
   font-family: 'Ubuntu', sans-serif;
-  background: #668df6;
+  background: #060f29;
 }
 
 nav .navbar{
@@ -60,7 +60,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #668df6;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -71,7 +71,7 @@ nav.sticky .menu a{
   color: #ffffff;
 }
 nav.sticky .menu a:hover{
-  color: #0E2431;
+  color: #ffffff;
 }
 
 
@@ -117,10 +117,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #060f29;
 }
 .home .text-two{
-  color: #0E2431;
+  color: #060f29;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -149,6 +149,7 @@ nav.sticky .menu-btn{
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
+  margin-top: -200px;
 }
 .home .button button:hover{
   border-color: #4070f4;
@@ -231,18 +232,18 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #668df6;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
 section .button button:hover{
   border-color: #4070f4;
-  background-color: #fff;
-  color: #4070f4;
+  background-color: #4070f4;
+  color: #ffffff;
 }
-
 
 
 /* test */
@@ -302,7 +303,7 @@ th {
   
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #060f29;
   color: #fff;
 }
 .services .boxes .box .icon{
@@ -335,10 +336,11 @@ th {
 .container{
   width: 100%;
   
-  color: #000000;
+  color: #060f29;
   display: flex;
-  text-align: center;
-  margin: auto;
+  
+  margin-left: -125px;
+  margin-top: -60px;
 }
 .container{
   font-size: 30px;
@@ -376,7 +378,11 @@ span{
   transition: all 0.4s ease;
   margin-top: 15px;
 }
-
+.contact button:hover{
+  border-color: #4070f4;
+  background-color: #4070f4;
+  color: #ffffff;
+}
 
 /* Footer CSS */
 footer{

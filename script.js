@@ -47,7 +47,7 @@ for (var i = 0; i < navLinks.length; i++) {
 // Animation
 document.addEventListener('DOMContentLoaded', function () {
   var typed = new Typed(".auto-type", {
-    strings: ["Front-end Developer", "UI/UX Designer", "DevOps learner"],
+    strings: ["Undergraduate", "Front-end Developer", "DevOps learner"],
     typeSpeed: 70,
     backSpeed: 70,
     loop: true
