@@ -333,14 +333,12 @@ th {
 }
 
 /* animation */
-.container{
+.home-content .content{
   width: 100%;
   
   color: #060f29;
   display: flex;
   
-  margin-left: -125px;
-  margin-top: -60px;
 }
 .container{
   font-size: 30px;
