@@ -222,6 +222,9 @@ section  .topic{
   text-align: justify;
   color: #0E2431;
 }
+.about-contact{
+  font-size: 12px;
+}
 section .button{
   margin: 16px 0;
 }
