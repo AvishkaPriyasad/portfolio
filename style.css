@@ -91,10 +91,10 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #060f29;;
+  color: #060f29;
 }
 nav.sticky .menu-btn{
-  color: #FFF;
+  color: #060f29;
 }
 .navbar .menu .menu-btn{
   color: #fff;
