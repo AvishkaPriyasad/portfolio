@@ -346,7 +346,7 @@ th {
   font-family: 'Ubuntu', sans-serif;
   color: #060f29;
   display: flex;
-  
+  font-size: 15px;
 }
 .container{
   font-size: 30px;
