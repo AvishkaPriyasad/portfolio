@@ -311,25 +311,11 @@ th {
   
 }
 .services .boxes .box:hover{
-  background: #060f29;
+  background: #668df6;
   color: #fff;
 }
-.services .boxes .box .icon{
-  height: 50px;
-  width: 50px;
-  background: #4070f4;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  color: #fff;
-  margin: 0 auto 10px auto;
-  transition: all 0.4s ease;
-}
-.boxes .box:hover .icon{
-  background-color: #fff;
-  color: #4070f4;
-}
+
+
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
   color: #0E2431;
@@ -346,12 +332,11 @@ th {
   font-family: 'Ubuntu', sans-serif;
   color: #060f29;
   display: flex;
-  font-size: 14px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 100;
 }
-.container{
-  font-size: 30px;
-  font-weight: 600;
-}
+
 span{
   color: #4070f4;
 }
@@ -425,6 +410,7 @@ span{
   font-weight: 400;
   font-size: 18px;
   color: #f0efef;
+  white-space: nowrap;
 }
 
 .footer address {
@@ -482,6 +468,7 @@ span{
   color:#668df6;
   font-size: 22px;
   margin: 0 6px;
+  
 }
 .media-icons :hover{
   color: #4070f4;
@@ -490,6 +477,7 @@ span{
 .footer-contact{
   justify-content: space-between;
 }
+
 
 
 
@@ -638,4 +626,41 @@ span{
     font-size: 50px;
     color: #4070f4;
   }
+}
+
+@media (max-width: 768px) {
+  .content .text h1 {
+    font-size: 15px;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflow */
+    text-overflow: ellipsis; /* Adds '...' if text overflows */
+  }
+
+  .content .text {
+    text-align: center; /* Centers the text for better alignment */
+  }
+}
+
+/*footer contact icon*/
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  display: flex; /* Ensures icon and text stay in one line */
+  align-items: center; /* Vertically aligns icon and text */
+  gap: 4px;/* Adds spacing between icon and text */
+  margin-bottom: 2px;
+}
+
+.footer-contact li p {
+  margin: 0;
+  font-size: 14px; /* Adjust font size for better mobile display */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.footer-contact i {
+  font-size: 12px;/* Icon size */
+  min-width: 20px; /* Ensures consistent space for the icon */
 }
