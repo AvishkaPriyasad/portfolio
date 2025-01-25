@@ -8,6 +8,11 @@
     <!-- Fontawesome CDN Link -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/all.min.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -80,7 +85,7 @@
                           
             
             <div class="button">
-              <a href="Images/resume.pdf" download="resume.pdf"><button>Download CV</button></a>
+              <a href="Images/CV.pdf" download="resume.pdf"><button>Download CV</button></a>
             </div>
             
           </div>
@@ -101,7 +106,9 @@
             <P><img src="Images/flutter.svg"><br>Flutter</p>
             <P><img src="Images/python.svg"><br>Python</p>
             <P><img src="Images/java.svg"><br>Java</p>
+            <P><img src="Images/springboot.png"><br>Spring Boot</p>
             <P><img src="Images/nodejs.svg"><br>Node.js</p>
+            <P><img src="Images/mysql.svg"><br>MySQL</p>
             <P><img src="Images/mongodb.png"><br>MongoDB</p>
             <P><img src="Images/jenkins.svg"><br>Jenkins</p>
             <P><img src="Images/docker.svg"><br>Docker</p>
@@ -119,78 +126,232 @@
     <section class="services" id="projects">
       <div class="content">
         <div class="title"><span>My Projects</span></div>
-        <div class="boxes">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="box">
+              <div class="topic">Milano - Restaurant Website</div>
+              <img src="Images/milano.jpg" alt="Milano Website">
+              <div class="overlay">
+                <div class="description">
+                  <p>Developed a restaurant website in a group project during the second semester of the first year at university.  </p>
 
+                </div>
+                <p>Technologies : HTML, CSS, JavaScript, PHP, Firebase</p>
+                <a href="https://github.com/AvishkaPriyasad/Milano-Restaurant" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">Emergicare - Healthcare Website</div>
+              <img src="Images/emergicare.jpg" alt="Emergicare Website">
+              <div class="overlay">
+                <div class="description">
+                  <p>Contributed to a group project to develop a healthcare platform during the 
+                    1st semester of 2nd year at university.  </p>
+
+                </div>
+                <p>Technologies : HTML, CSS, JavaScript, Node.js, MongoDB</p>
+                <a href="https://github.com/AvishkaPriyasad/Emergicare.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">SmartLearn Mobile App</div>
+              <img src="Images/smartlearn.png" alt="SmartLearn">
+              <div class="overlay">
+                <div class="description">
+                  <p>Designed platform for
+                    effective e-learning. It offers personalized learning paths, quizzes, and progress tracking.</p>
+
+                </div>
+                <p>Technologies : Flutter, Firebase, Android Studio</p>
+                <a href="https://github.com/AvishkaPriyasad/SmartLearn-Mobile-App.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">To-Do List Application</div>
+              <img src="Images/todo.jpg" alt="To-Do List">
+              <div class="overlay">
+                <div class="description">
+                  <p>The application features a simple and intuitive user interface that allows 
+                    users to add, edit, and delete tasks. </p>
+
+                </div>
+                <p>Technologies : Python, Tkinter</p>
+                <a href="https://github.com/AvishkaPriyasad/To-Do-List.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">Flappy-Bird Game</div>
+              <img src="Images/flappybird.png" alt="Flappy Bird">
+              <div class="overlay">
+                <div class="description">
+                  <p>Implemented features like dynamic obstacle generation, collision detection, 
+                    and score tracking. </p>
+
+                </div>
+                <p>Technologies : Java, Java Swing</p>
+                <a href="https://github.com/AvishkaPriyasad/Flappy-Bird.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">GoldenTrust Web Application</div>
+              <img src="Images/golden.png" alt="GoldenTrust">
+              <div class="overlay">
+                <div class="description">
+                  <p>Developed online banking web application with features
+                    like user authentication and an account management dashboard. </p>
+
+                </div>
+                <p>Technologies : Spring Boot, MySQL, HTML, CSS</p>
+                <a href="https://github.com/AvishkaPriyasad/BankApp-SpringBoot.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">CI/CD Pipeline Development</div>
+              <img src="Images/cicd.png" alt="CI/CD">
+              <div class="overlay">
+                <div class="description">
+                  <p>Designed and implemented a CI/CD pipeline to automate the build, test, and deployment processes for software 
+                    application.  </p>
+
+                </div>
+                <p>Technologies : Jenkins, Docker, GitHub, Node.js</p>
+                <a href="https://github.com/AvishkaPriyasad/GitHub-Docker-and-Jenkins-Cl-CD-Pipeline.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">To-do List Application - MERN Stack</div>
+              <img src="Images/todolist.png" alt="MERN">
+              <div class="overlay">
+                <div class="description">
+                  <p> Developed a full-stack Todo List application using the MERN stack,
+                    enabling users to add, complete, and delete tasks with real-time updates </p>
+
+                </div>
+                <p>Technologies : MongoDB, Express.js, React, Node.js</p>
+                <a href="https://github.com/AvishkaPriyasad/TodoList-Mern-Stack.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic">Woodies - Online Marketplace</div>
+              <img src="Images/woodies.png" alt="Woodies">
+              <div class="overlay">
+                <div class="description">
+                  <p>Developed a web application for selling wood wall shelves, 
+                    incorporating user account management, and 
+                    Admin functionalities to streamline the business operations.  </p>
+
+                </div>
+                <p>Technologies : HTML, Tailwind CSS, JSP, MySQL</p>
+                <a href="https://github.com/kavindaChathuranga/WOODIES.git" target="_blank">
+                  <br><button>View Repository</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
           
-          <div class="box">   
-            <div class="icon">
-              <i class="fas fa-utensils"></i>
-            </div>
-            <div class="topic">Milano - Resturant Website</div>
-            <a href="https://github.com/AvishkaPriyasad/Milano-Restaurant"><img src="Images/milano.jpg" alt="Web Devlopment"></a>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-medkit"></i>
-            </div>
-            <div class="topic">Emergicare - Healthcare Website </div>
-            <a href="https://github.com/AvishkaPriyasad/Emergicare"><img src="Images/emergicare.jpg" alt="Web Devlopment"></a>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-graduation-cap"></i>
-            </div>
-            <div class="topic">Student Grade Management System</div>
-            <a href="https://github.com/AvishkaPriyasad/Student-grade-Management"><img src="Images/student.jpg" alt="Web Devlopment"></a>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-list-alt"></i>
-            </div>
-            <div class="topic">
-              To-Do List Application
-            </div>
-            <a href="https://github.com/AvishkaPriyasad/To-Do-List"><img src="Images/todo.jpg" alt="Web Devlopment"></a>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fa fa-gamepad"></i>
-            </div>
-            <div class="topic">Flappy-Bird Game</div>
-            <a href="https://github.com/AvishkaPriyasad/Flappy-Bird"><img src="Images/flappy.jpg" alt="Web Devlopment"></a>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-clipboard-list"></i>
-            </div>
-            <div class="topic">Food Order Menu</div>
-            <a href="https://github.com/AvishkaPriyasad/simple-foodorder_menu"><img src="Images/foodorder.jpg" alt="Web Devlopment"></a>
-          </div>
         </div>
       </div>
     </section>
+    
 
     <!-- My blog Section Start -->
-    <section class="services" id="projects">
+    <section class="services" id="blog-posts">
       <div class="content">
         <div class="title"><span>Latest Blog Post</span></div>
-        <div class="boxes">         
-          <div class="box">   
-            <div class="topic">Visual Studio Code Productivity Tips</div>
-            <a href="https://medium.com/@avishkapriyasad/visual-studio-code-productivity-tips-9d37146d28ef"><img src="Images/vscode.jpg" alt="Web Devlopment"></a>
-            
+        <div class="owl-carousel owl-theme blog-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/visual-studio-code-productivity-tips-9d37146d28ef">Visual Studio Code Productivity Tips</a></div>
+              <a href="https://medium.com/@avishkapriyasad/visual-studio-code-productivity-tips-9d37146d28ef">
+                <img src="Images/vscode.jpg" alt="VS Code Tips">
+              </a>
+            </div>
           </div>
-          <div class="box">
-            <div class="topic">Evaluation of Apple's Business Model</div>
-            <a href="https://medium.com/@avishkapriyasad/evaluation-of-apples-business-model-0344722de16f"><img src="Images/apple.jpg" alt="Web Devlopment"></a>
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/evaluation-of-apples-business-model-0344722de16f">Evaluation of Apple's Business Model</a></div>
+              <a href="https://medium.com/@avishkapriyasad/evaluation-of-apples-business-model-0344722de16f">
+                <img src="Images/apple.jpg" alt="Apple Business Model">
+              </a>
+            </div>
           </div>
-          <div class="box">
-            <div class="topic">Chrome Extensions for Web Developers</div>
-            <a href="https://medium.com/@avishkapriyasad/top-5-chrome-extensions-for-web-designers-071281de385f"><img src="Images/extension.jpg" alt="Web Devlopment"></a>
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/top-5-chrome-extensions-for-web-designers-071281de385f">Chrome Extensions for Developers</a></div>
+              <a href="https://medium.com/@avishkapriyasad/top-5-chrome-extensions-for-web-designers-071281de385f">
+                <img src="Images/extension.jpg" alt="Chrome Extensions">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/building-a-todo-list-application-with-mern-stack-f0a2950e37d3"> Building a Todo List Application</a></div>
+              <a href="https://medium.com/@avishkapriyasad/building-a-todo-list-application-with-mern-stack-f0a2950e37d3">
+                <img src="Images/todolist.png" alt="VS Code Tips">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/a-comprehensive-guide-to-different-types-of-attacks-292b076d0a57">Different Types of Attacks</a></div>
+              <a href="https://medium.com/@avishkapriyasad/a-comprehensive-guide-to-different-types-of-attacks-292b076d0a57">
+                <img src="Images/attacks.png" alt="Apple Business Model">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="topic"><a href="https://medium.com/@avishkapriyasad/top-5-chrome-extensions-for-web-designers-071281de385f">Chrome Extensions for Developers</a></div>
+              <a href="https://medium.com/@avishkapriyasad/top-5-chrome-extensions-for-web-designers-071281de385f">
+                <img src="Images/extension.jpg" alt="Chrome Extensions">
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    
     
     <!-- Contact Me section Start -->
     <section class="contact" id="contact">
@@ -283,6 +444,12 @@
       <p>Created By AVEE &copy; 2025. All rights reserved.</p>
       
     </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <script src="script.js"></script>
+    
   </body>
 </html>

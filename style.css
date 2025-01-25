@@ -663,4 +663,114 @@ span{
   }
 }
 
+/* owl carosal*/
+.owl-carousel .item {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.owl-carousel .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.owl-carousel .box {
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.owl-carousel .box:hover {
+  transform: scale(1.05);
+}
+
+/* Project Card Styling */
+.box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.box .description{
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: whitesmoke;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.box .topic {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.box a{
+  color: #060f29;
+}
+
+.box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.9); /* Grey color with transparency */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.box .overlay p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.box .overlay button {
+  background-color: #555; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.box .overlay button:hover {
+  background-color: #4070f4; /* Lighter grey on hover */
+}
+
+.box .overlay a {
+  text-decoration: none;
+}
+
+/* Hover Effect */
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
 
