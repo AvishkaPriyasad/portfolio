@@ -61,7 +61,7 @@ $('.blog-carousel').owlCarousel({
   nav: true,
   dots: true,
   autoplay: true,
-  autoplayTimeout: 6000,
+  autoplayTimeout: 3000,
   autoplayHoverPause: true,
   responsive: {
     0: { items: 1 },
