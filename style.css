@@ -25,7 +25,7 @@
   background: #4070f4;
 }
 /* navbar styling */
-nav{
+/* nav{
   position: fixed;
   width: 100%;
   padding: 20px 0;
@@ -33,11 +33,34 @@ nav{
   transition: all 0.3s ease;
   font-family: 'Ubuntu', sans-serif;
   
+} */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 13px 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 1000; /* Make sure it's above other content */
 }
-nav.sticky{
+
+
+nav.sticky {
+  /* Add sticky-specific styles here */
+  padding: 13px 0;                            /* Example: reduce padding */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);     /* Example: add shadow when sticky */
+  /* You can add or override any styles for sticky state */
+}
+
+
+/* nav.sticky{
   background: #F0F8FF;
   padding: 13px 0;
-}
+} */
+
 
 nav .navbar{
   width: 90%;
@@ -63,7 +86,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #668df6;
+  color: #ffffff;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -71,7 +94,7 @@ nav .navbar .menu li{
   color: #060f29;
 }
 nav.sticky .menu a{
-  color: #668df6;
+  color: #ffffff;
 }
 nav.sticky .menu a:hover{
   color: #060f29;
@@ -773,4 +796,6 @@ span{
 .box:hover .overlay {
   opacity: 1;
 }
+
+
 
