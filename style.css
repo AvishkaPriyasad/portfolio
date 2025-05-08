@@ -40,7 +40,7 @@ nav {
   left: 0;
   width: 100%;
   padding: 13px 0;
-  background: #b8ccef;
+  background: rgba(138, 167, 214, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   font-family: 'Ubuntu', sans-serif;
@@ -51,7 +51,7 @@ nav {
 nav.sticky {
   /* Add sticky-specific styles here */
   padding: 13px 0;                            /* Example: reduce padding */
-  box-shadow: 0 2px 8px #b8ccef;     /* Example: add shadow when sticky */
+  box-shadow: 0 2px 8px rgba(125, 168, 237, 0.5);     /* Example: add shadow when sticky */
   /* You can add or override any styles for sticky state */
 }
 
