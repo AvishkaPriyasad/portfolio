@@ -51,7 +51,7 @@ nav {
 nav.sticky {
   /* Add sticky-specific styles here */
   padding: 13px 0;                            /* Example: reduce padding */
-  box-shadow: 0 2px 8px rgba(125, 168, 237, 0.5);     /* Example: add shadow when sticky */
+  box-shadow: 0 2px 8px rgba(205, 160, 92, 0.5);     /* Example: add shadow when sticky */
   /* You can add or override any styles for sticky state */
 }
 
